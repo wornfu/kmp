@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File: composeApp/src/androidMain/res/xml/file_paths.xml -->
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- เก็บรูปภาพใน external files directory -->
+    <external-files-path
+        name="pictures"
+        path="pictures/" />
+    
+    <!-- เก็บรูปภาพใน cache directory (temporary) -->
+    <external-cache-path
+        name="cache"
+        path="." />
+</paths>
